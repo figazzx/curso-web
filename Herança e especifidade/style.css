@@ -1,0 +1,19 @@
+/*Herença e especifidade */
+
+*{
+    color: red;
+} 
+
+h2{
+    color: blue;
+}
+
+h2#amarelo{
+    color: yellow;
+}
+
+
+h2.verde{
+    color: green;
+}
+

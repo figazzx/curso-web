@@ -1,0 +1,13 @@
+/* Seletor Universal*/
+*{
+    background-color: #ccc;
+}
+
+.verde{
+    color: green;
+}
+
+#cabecalho{
+
+    border: solid 2px blue;
+}

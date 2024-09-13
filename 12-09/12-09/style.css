@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7a7878;
+}
+
+.conteiner{
+    background-color: #FFF;
+    max-width: 1000px;
+    margin: 0 auto;    
+}
+
+h1{
+    text-align: center;
+    color: #8b2323;
+}
+
+span{
+    color: green;
+}
+
+.conteinerTable{
+    
+    /*Largura*/
+    max-width: 700px;
+    
+    /*Centro da tela*/
+    margin: 30px auto;
+
+}
+
+.conteinerTable table{
+    width: 100%;
+}
+
+.tr-background{
+    background-color: #8b2323;
+    color: #FFF;
+}
+
+.background-prime{
+    background-color: aqua;
+    text-align: center;
+}
+
+

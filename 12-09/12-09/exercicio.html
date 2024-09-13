@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .titulo,h1{
+            
+            /* Outras maneiras de deixar a div centralizada
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            */
+            /* Deixando centralizado*/
+            text-align: center;
+            padding: 15px;
+        }
+        .conteiner{
+
+            /*Largura*/
+        max-width: 700px;
+    
+        /*Centro da tela*/
+        margin: 30px auto;
+
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid #CCC;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        th{
+            border: 2px solid #CCC;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+.btn{
+    border-radius: 5px;
+    padding: 4px;
+}
+        .button1{      
+            background-color: #6495ED;
+        }
+        .button2{
+            background-color: #4169E1;
+        }
+        .button3{
+            background-color: #7B68EE;
+        }
+
+        .preco1{
+            color: #FFF ;
+            font-size: 25px;
+            text-align: center;
+            padding: 4px;
+            background-color: #6495ED;
+        }
+        .preco2{
+            color: #FFF;
+            font-size: 25px;
+            text-align: center;
+            padding: 4px;
+            background-color: #4169E1;
+
+        }
+        .preco3{
+            color: #FFF;
+            font-size: 25px;
+            text-align: center;
+            padding: 4px;
+            background-color: #7B68EE;
+
+
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="titulo">
+    <h2>Modelo de tabela de preços</h2>
+    <p>There are many variations of passages of Lorem Ipsum available
+
+    </p>
+    <button>Inicia o seu teste gratuito</button>
+</div>
+
+
+
+
+    <div class="conteiner">
+    <table>
+        <tr>
+            <th style="border: none;"></th>
+            <th>BÁSICO</th>
+            <th>PADRÃO</th>
+            <th>AVANÇADO</th>
+        </tr>
+        
+        <tr class="basico">
+            <td>Preço mensal</td>
+            <td class="preco1">$ 29</td>
+            <td class="preco2">$ 59</td>
+            <td class="preco3">$ 139</td>
+        </tr>
+          
+        <tr class="padrao">
+            <td>Comercial</td>
+            <td>1 Usuário completo</td>
+            <td>5 usuários completos</td>
+            <td>Usuários personalizados</td>
+        </tr>
+        
+        <tr class="avançado">
+            <td>Usuários ilimitados somente leitura</td>
+            <td>1.000 visualizações de email</td>
+            <td>2.000 visualizações de email</td>
+            <td>Visualizações de email personalizadas</td>
+        </tr>
+        <tr>
+            <td>Contatos</td>
+            <td>5 contatos por cliente</td>
+            <td>25 contatos por cliente</td>
+            <td>Contatos Ilimitados</td>
+        </tr>
+        <tr>
+            <td>Café</td>
+            <td>5 xícaras</td>
+            <td>8 xícaras</td>
+            <td>10 xícaras</td>
+        </tr>
+        <tr>
+            <td style="border: none;"></td>
+            <td><button class="button1 btn">Escolha o plano</button></td>
+            <td><button class="button2 btn">Escolha o plano</button></td>
+            <td><button class="button3 btn">Escolha o plano</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
